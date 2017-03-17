@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    padding: 5px;
+    z-index: 1;
+    margin: auto;
+}
+
+h2{
+    margin: 0px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h3{
+    padding-left: 10px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h5{
+     color: #666666;
+}
+
+.weHeading{
+    color: #666666;
+}
+
+p{
+    padding: 0 0 0 5px;
+    color: grey;
+}
+.horizontalLine{
+    border: none;
+    height: 2px;
+    background-color: gray;
+    margin: 0px 0px 10px 0px;
+}
+
+#box {
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid grey;
+}
+
+#header
+{
+    z-index: 1;
+    height: 20%;
+    width: 98%;
+    background-color: #0e0e0e;
+    margin-bottom: 10px;
+    position: fixed;
+}
+
+#name {
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
+    font-family: 'Diplomata SC', cursive;
+}
+
+#email{
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    background: #0e0e0e;
+    width: 25%;
+    margin: auto;
+}
+#blankSpace {
+    width: 99%;
+    height: 0.3px;
+    background: white;
+    float: left;
+    padding-top: 10.5%;
+}
+
+#contactInfo
+{
+    width: 99%;
+    height: 10%;
+    background: black;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    padding: 5px;
+}
+
+#contactDiv {
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 15%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+/*Grid System*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;
+        }
+.col-6 {width: 50%;
+        padding: 20px;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.workExpBox {
+    border-left: 2px solid grey;
+    border-bottom: 2px solid #c5b8b8;
+    height: 170px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+.educationBox {
+    border-left: 2px solid #c5b8b8;
+   /* border-bottom: 1px solid black;*/
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.btn{
+    width:100%;
+    padding: 10px;
+    background-color: #666666;
+    color: white;
+    z-index: 1;
+}
+
+.vertical {
+    height:1000px;
+    width : 100%;
+    position:absolute;
+    border-left:2px dashed gray;
+}
+
+[class*="tpBtn-"] {
+    width : 4%;
+    height: 25px;
+    z-index: 1;
+}
+
+/*Barchart topography buttons*/
+.tpBtn-1{
+    background-color: #000000;
+}
+.tpBtn-2{
+   background-color: #191919;
+}
+.tpBtn-3{
+   background-color: #323232;
+}
+.tpBtn-4{
+   background-color: #4c4c4c;
+}
+.tpBtn-5{
+   background-color: #666666;
+}
+.tpBtn-6{
+   background-color: #7f7f7f;
+}
+.tpBtn-7{
+   background-color: #999999;
+}
+.tpBtn-8{
+   background-color: #b2b2b2;
+}
+
+.barchart{
+    height: 230px;
+}
+
+.eduHeading{
+    padding: 7% 0 0 10px;
+    margin-bottom: -20px;
+    color: #bfb7b7;
+}
+
+.eduText {
+    padding: 0 0 0 10px;
+    color: #666666;
+}
